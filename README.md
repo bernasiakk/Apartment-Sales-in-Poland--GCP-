@@ -10,7 +10,7 @@
 
 ### Data sources
 [Apartment Prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland) dataset by Krzysztof Jamroz. It's a monthly-updated dataset that looks something like: \
-<img src="images/sample_dataset_.png" alt="drawing" width="600"/>
+<img src="images/sample_dataset_.png" alt="drawing" width="750"/>
 
 ### Data Transformations
 1. I extracted the data in the original data type. I kept all the information.
@@ -54,7 +54,7 @@ Within the bucket, I also decided to implement some logic to archive those files
 
 #### 2. Cloud Functions:
    1. Create *function_apartment_sales*. Set cloud storage as trigger: \
-    <img src="images/cloud_function.png" alt="drawing" width="250"/>
+    <img src="images/cloud_function.png" alt="drawing" width="350"/>
    2. Set code environment to Python 3.10
    3. Replace function.py and requirements.txt with [cloud_function](cloud_function/). Change variables marked as #TODO
    4. Save & deploy
