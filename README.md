@@ -53,7 +53,8 @@ Within the bucket, I also decided to implement some logic to archive those files
    1. Create bucket *gcs_housing_in_poland* (for raw & processed files)
 
 #### 2. Cloud Functions:
-   1. Create *function_apartment_sales*. Set cloud storage as trigger: <img src="images/cloud_function.png" alt="drawing" width="250"/>
+   1. Create *function_apartment_sales*. Set cloud storage as trigger: \
+    <img src="images/cloud_function.png" alt="drawing" width="250"/>
    2. Set code environment to Python 3.10
    3. Replace function.py and requirements.txt with [cloud_function](cloud_function/). Change variables marked as #TODO
    4. Save & deploy
